@@ -1,0 +1,28 @@
+{
+  "name": "entra-mcp-oauth-proxy",
+  "version": "1.0.0",
+  "description": "Local proxy that strips the RFC 8707 resource parameter so MCP clients can authenticate to Microsoft Entra-protected remote MCP servers (Power BI, Azure DevOps, ...) broken by the March 2026 Entra change.",
+  "type": "module",
+  "bin": {
+    "entra-mcp-oauth-proxy": "proxy.mjs"
+  },
+  "scripts": {
+    "start": "node proxy.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "oauth",
+    "entra",
+    "azure-ad",
+    "power-bi",
+    "claude",
+    "proxy",
+    "rfc8707"
+  ],
+  "dependencies": {}
+}
